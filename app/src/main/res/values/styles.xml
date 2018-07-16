@@ -1,0 +1,117 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeDarkerBackground" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDarkDarker</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeDialogFadeInFadeOut" parent="ThemeDialog">
+        <item name="android:windowAnimationStyle">@style/FadeInFadeOut</item>
+    </style>
+
+    <style name="ThemeDialog" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/SlideDownUp</item>
+    </style>
+
+    <style name="SlideDownUp">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="FadeInFadeOut">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="TextLoadingProgress" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/montserratregular</item>
+    </style>
+
+    <style name="TextTitleTooblar" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratregular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppName" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratbold</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextItemViewPager" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratbold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginEnd">60sp</item>
+        <item name="android:layout_marginStart">30sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+    </style>
+
+    <style name="ButtonDialogStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="EdtStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:background">@color/colorPrimaryEdt</item>
+        <item name="android:textColorHint">@color/colorHintEdt</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:fontFamily">@font/montserratregular</item>
+    </style>
+    
+    <style name="TextBold14" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+    </style>
+
+    <style name="TextBold16" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserratbold</item>
+    </style>
+
+    <style name="TextRegular14" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserratregular</item>
+    </style>
+
+</resources>
